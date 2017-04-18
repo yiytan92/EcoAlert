@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7E61B51EA59C65008C0AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61B41EA59C65008C0AEB /* AppDelegate.swift */; };
+		6C7E61B71EA59C65008C0AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61B61EA59C65008C0AEB /* ViewController.swift */; };
+		6C7E61BA1EA59C65008C0AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7E61B81EA59C65008C0AEB /* Main.storyboard */; };
+		6C7E61BD1EA59C65008C0AEB /* Eco_Alert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61BB1EA59C65008C0AEB /* Eco_Alert.xcdatamodeld */; };
+		6C7E61BF1EA59C65008C0AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7E61BE1EA59C65008C0AEB /* Assets.xcassets */; };
+		6C7E61C21EA59C65008C0AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7E61C01EA59C65008C0AEB /* LaunchScreen.storyboard */; };
+		6C7E61CD1EA59C65008C0AEB /* Eco_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61CC1EA59C65008C0AEB /* Eco_AlertTests.swift */; };
+		6C7E61D81EA59C65008C0AEB /* Eco_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61D71EA59C65008C0AEB /* Eco_AlertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C7E61C91EA59C65008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E61A91EA59C65008C0AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7E61B01EA59C65008C0AEB;
+			remoteInfo = "Eco Alert";
+		};
+		6C7E61D41EA59C65008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E61A91EA59C65008C0AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7E61B01EA59C65008C0AEB;
+			remoteInfo = "Eco Alert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C7E61B11EA59C65008C0AEB /* Eco Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7E61B41EA59C65008C0AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C7E61B61EA59C65008C0AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C7E61B91EA59C65008C0AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C7E61BC1EA59C65008C0AEB /* Eco_Alert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eco_Alert.xcdatamodel; sourceTree = "<group>"; };
+		6C7E61BE1EA59C65008C0AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7E61C11EA59C65008C0AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C7E61C31EA59C65008C0AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7E61C81EA59C65008C0AEB /* Eco AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eco AlertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7E61CC1EA59C65008C0AEB /* Eco_AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_AlertTests.swift; sourceTree = "<group>"; };
+		6C7E61CE1EA59C65008C0AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7E61D31EA59C65008C0AEB /* Eco AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eco AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7E61D71EA59C65008C0AEB /* Eco_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_AlertUITests.swift; sourceTree = "<group>"; };
+		6C7E61D91EA59C65008C0AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7E61AE1EA59C65008C0AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7E61C51EA59C65008C0AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7E61D01EA59C65008C0AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7E61A81EA59C65008C0AEB = {
+			isa = PBXGroup;
+			children = (
+				6C7E61B31EA59C65008C0AEB /* Eco Alert */,
+				6C7E61CB1EA59C65008C0AEB /* Eco AlertTests */,
+				6C7E61D61EA59C65008C0AEB /* Eco AlertUITests */,
+				6C7E61B21EA59C65008C0AEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7E61B21EA59C65008C0AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E61B11EA59C65008C0AEB /* Eco Alert.app */,
+				6C7E61C81EA59C65008C0AEB /* Eco AlertTests.xctest */,
+				6C7E61D31EA59C65008C0AEB /* Eco AlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7E61B31EA59C65008C0AEB /* Eco Alert */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E61B41EA59C65008C0AEB /* AppDelegate.swift */,
+				6C7E61B61EA59C65008C0AEB /* ViewController.swift */,
+				6C7E61B81EA59C65008C0AEB /* Main.storyboard */,
+				6C7E61BE1EA59C65008C0AEB /* Assets.xcassets */,
+				6C7E61C01EA59C65008C0AEB /* LaunchScreen.storyboard */,
+				6C7E61C31EA59C65008C0AEB /* Info.plist */,
+				6C7E61BB1EA59C65008C0AEB /* Eco_Alert.xcdatamodeld */,
+			);
+			path = "Eco Alert";
+			sourceTree = "<group>";
+		};
+		6C7E61CB1EA59C65008C0AEB /* Eco AlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E61CC1EA59C65008C0AEB /* Eco_AlertTests.swift */,
+				6C7E61CE1EA59C65008C0AEB /* Info.plist */,
+			);
+			path = "Eco AlertTests";
+			sourceTree = "<group>";
+		};
+		6C7E61D61EA59C65008C0AEB /* Eco AlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E61D71EA59C65008C0AEB /* Eco_AlertUITests.swift */,
+				6C7E61D91EA59C65008C0AEB /* Info.plist */,
+			);
+			path = "Eco AlertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7E61B01EA59C65008C0AEB /* Eco Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7E61DC1EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco Alert" */;
+			buildPhases = (
+				6C7E61AD1EA59C65008C0AEB /* Sources */,
+				6C7E61AE1EA59C65008C0AEB /* Frameworks */,
+				6C7E61AF1EA59C65008C0AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eco Alert";
+			productName = "Eco Alert";
+			productReference = 6C7E61B11EA59C65008C0AEB /* Eco Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C7E61C71EA59C65008C0AEB /* Eco AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7E61DF1EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco AlertTests" */;
+			buildPhases = (
+				6C7E61C41EA59C65008C0AEB /* Sources */,
+				6C7E61C51EA59C65008C0AEB /* Frameworks */,
+				6C7E61C61EA59C65008C0AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7E61CA1EA59C65008C0AEB /* PBXTargetDependency */,
+			);
+			name = "Eco AlertTests";
+			productName = "Eco AlertTests";
+			productReference = 6C7E61C81EA59C65008C0AEB /* Eco AlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C7E61D21EA59C65008C0AEB /* Eco AlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7E61E21EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco AlertUITests" */;
+			buildPhases = (
+				6C7E61CF1EA59C65008C0AEB /* Sources */,
+				6C7E61D01EA59C65008C0AEB /* Frameworks */,
+				6C7E61D11EA59C65008C0AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7E61D51EA59C65008C0AEB /* PBXTargetDependency */,
+			);
+			name = "Eco AlertUITests";
+			productName = "Eco AlertUITests";
+			productReference = 6C7E61D31EA59C65008C0AEB /* Eco AlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7E61A91EA59C65008C0AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yi Yang  Tan ";
+				TargetAttributes = {
+					6C7E61B01EA59C65008C0AEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6S7MCN3WAV;
+						ProvisioningStyle = Automatic;
+					};
+					6C7E61C71EA59C65008C0AEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6S7MCN3WAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C7E61B01EA59C65008C0AEB;
+					};
+					6C7E61D21EA59C65008C0AEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6S7MCN3WAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C7E61B01EA59C65008C0AEB;
+					};
+				};
+			};
+			buildConfigurationList = 6C7E61AC1EA59C65008C0AEB /* Build configuration list for PBXProject "Eco Alert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C7E61A81EA59C65008C0AEB;
+			productRefGroup = 6C7E61B21EA59C65008C0AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7E61B01EA59C65008C0AEB /* Eco Alert */,
+				6C7E61C71EA59C65008C0AEB /* Eco AlertTests */,
+				6C7E61D21EA59C65008C0AEB /* Eco AlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7E61AF1EA59C65008C0AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7E61C21EA59C65008C0AEB /* LaunchScreen.storyboard in Resources */,
+				6C7E61BF1EA59C65008C0AEB /* Assets.xcassets in Resources */,
+				6C7E61BA1EA59C65008C0AEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7E61C61EA59C65008C0AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7E61D11EA59C65008C0AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7E61AD1EA59C65008C0AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7E61B71EA59C65008C0AEB /* ViewController.swift in Sources */,
+				6C7E61BD1EA59C65008C0AEB /* Eco_Alert.xcdatamodeld in Sources */,
+				6C7E61B51EA59C65008C0AEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7E61C41EA59C65008C0AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7E61CD1EA59C65008C0AEB /* Eco_AlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7E61CF1EA59C65008C0AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7E61D81EA59C65008C0AEB /* Eco_AlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C7E61CA1EA59C65008C0AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C7E61B01EA59C65008C0AEB /* Eco Alert */;
+			targetProxy = 6C7E61C91EA59C65008C0AEB /* PBXContainerItemProxy */;
+		};
+		6C7E61D51EA59C65008C0AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C7E61B01EA59C65008C0AEB /* Eco Alert */;
+			targetProxy = 6C7E61D41EA59C65008C0AEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C7E61B81EA59C65008C0AEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7E61B91EA59C65008C0AEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C7E61C01EA59C65008C0AEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7E61C11EA59C65008C0AEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7E61DA1EA59C65008C0AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C7E61DB1EA59C65008C0AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C7E61DD1EA59C65008C0AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				INFOPLIST_FILE = "Eco Alert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C7E61DE1EA59C65008C0AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				INFOPLIST_FILE = "Eco Alert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C7E61E01EA59C65008C0AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				INFOPLIST_FILE = "Eco AlertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eco Alert.app/Eco Alert";
+			};
+			name = Debug;
+		};
+		6C7E61E11EA59C65008C0AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				INFOPLIST_FILE = "Eco AlertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eco Alert.app/Eco Alert";
+			};
+			name = Release;
+		};
+		6C7E61E31EA59C65008C0AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				INFOPLIST_FILE = "Eco AlertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Eco Alert";
+			};
+			name = Debug;
+		};
+		6C7E61E41EA59C65008C0AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				INFOPLIST_FILE = "Eco AlertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Eco Alert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7E61AC1EA59C65008C0AEB /* Build configuration list for PBXProject "Eco Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7E61DA1EA59C65008C0AEB /* Debug */,
+				6C7E61DB1EA59C65008C0AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7E61DC1EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7E61DD1EA59C65008C0AEB /* Debug */,
+				6C7E61DE1EA59C65008C0AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C7E61DF1EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7E61E01EA59C65008C0AEB /* Debug */,
+				6C7E61E11EA59C65008C0AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C7E61E21EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco AlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7E61E31EA59C65008C0AEB /* Debug */,
+				6C7E61E41EA59C65008C0AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C7E61BB1EA59C65008C0AEB /* Eco_Alert.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C7E61BC1EA59C65008C0AEB /* Eco_Alert.xcdatamodel */,
+			);
+			currentVersion = 6C7E61BC1EA59C65008C0AEB /* Eco_Alert.xcdatamodel */;
+			path = Eco_Alert.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C7E61A91EA59C65008C0AEB /* Project object */;
+}
