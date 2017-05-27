@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C48E2CB1EC0EDBA00CE1A49 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48E2CA1EC0EDBA00CE1A49 /* TableViewController.swift */; };
+		6C48E2CD1EC0EFC200CE1A49 /* LocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48E2CC1EC0EFC100CE1A49 /* LocationsController.swift */; };
+		6C6C7B731EC1BC37001B114C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6C7B721EC1BC37001B114C /* Bolts.framework */; };
+		6C6C7B7C1EC1BC60001B114C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6C7B7B1EC1BC60001B114C /* FBSDKCoreKit.framework */; };
+		6C6C7B7E1EC1BC6B001B114C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6C7B7D1EC1BC6B001B114C /* FBSDKLoginKit.framework */; };
+		6C6C7B801EC1BC75001B114C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6C7B7F1EC1BC75001B114C /* FBSDKShareKit.framework */; };
 		6C7E61B51EA59C65008C0AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61B41EA59C65008C0AEB /* AppDelegate.swift */; };
 		6C7E61B71EA59C65008C0AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61B61EA59C65008C0AEB /* ViewController.swift */; };
 		6C7E61BA1EA59C65008C0AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7E61B81EA59C65008C0AEB /* Main.storyboard */; };
@@ -15,6 +21,14 @@
 		6C7E61C21EA59C65008C0AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7E61C01EA59C65008C0AEB /* LaunchScreen.storyboard */; };
 		6C7E61CD1EA59C65008C0AEB /* Eco_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61CC1EA59C65008C0AEB /* Eco_AlertTests.swift */; };
 		6C7E61D81EA59C65008C0AEB /* Eco_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61D71EA59C65008C0AEB /* Eco_AlertUITests.swift */; };
+		6C7E61E71EA5A33F008C0AEB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7E61E61EA5A33F008C0AEB /* MapKit.framework */; };
+		6C7E61E91EA5AD83008C0AEB /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E61E81EA5AD83008C0AEB /* DatabaseController.swift */; };
+		6C7E62411EA5B408008C0AEB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7E62341EA5B3FC008C0AEB /* Alamofire.framework */; };
+		6C7E62421EA5B408008C0AEB /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7E62341EA5B3FC008C0AEB /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C7E62461EA5BC58008C0AEB /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E62451EA5BC58008C0AEB /* MapPin.swift */; };
+		6CC9DB791EC2595D00608661 /* FBLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC9DB781EC2595D00608661 /* FBLoginVC.swift */; };
+		6CF93E3E1EC1903500358636 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF93E3D1EC1903500358636 /* AddAlertViewController.swift */; };
+		6CF93E471EC1A04100358636 /* UserLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF93E461EC1A04000358636 /* UserLocationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +46,86 @@
 			remoteGlobalIDString = 6C7E61B01EA59C65008C0AEB;
 			remoteInfo = "Eco Alert";
 		};
+		6C7E62331EA5B3FC008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		6C7E62351EA5B3FC008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		6C7E62371EA5B3FC008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		6C7E62391EA5B3FC008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		6C7E623B1EA5B3FC008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		6C7E623D1EA5B3FC008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		6C7E623F1EA5B3FC008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		6C7E62431EA5B408008C0AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6C7E62071EA5B19B008C0AEB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C7E62421EA5B408008C0AEB /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6C48E2CA1EC0EDBA00CE1A49 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6C48E2CC1EC0EFC100CE1A49 /* LocationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsController.swift; sourceTree = "<group>"; };
+		6C6C7B721EC1BC37001B114C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4.22.0/Bolts.framework"; sourceTree = "<group>"; };
+		6C6C7B7B1EC1BC60001B114C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.22.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		6C6C7B7D1EC1BC6B001B114C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.22.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		6C6C7B7F1EC1BC75001B114C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.22.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		6C6C7B811EC1BE70001B114C /* Eco Alert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Eco Alert.entitlements"; sourceTree = "<group>"; };
 		6C7E61B11EA59C65008C0AEB /* Eco Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7E61B41EA59C65008C0AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C7E61B61EA59C65008C0AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +140,13 @@
 		6C7E61D31EA59C65008C0AEB /* Eco AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eco AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7E61D71EA59C65008C0AEB /* Eco_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_AlertUITests.swift; sourceTree = "<group>"; };
 		6C7E61D91EA59C65008C0AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7E61E61EA5A33F008C0AEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6C7E61E81EA5AD83008C0AEB /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6C7E62451EA5BC58008C0AEB /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		6CC9DB781EC2595D00608661 /* FBLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginVC.swift; sourceTree = "<group>"; };
+		6CF93E3D1EC1903500358636 /* AddAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
+		6CF93E461EC1A04000358636 /* UserLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +154,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6C7B731EC1BC37001B114C /* Bolts.framework in Frameworks */,
+				6C6C7B7C1EC1BC60001B114C /* FBSDKCoreKit.framework in Frameworks */,
+				6C6C7B801EC1BC75001B114C /* FBSDKShareKit.framework in Frameworks */,
+				6C6C7B7E1EC1BC6B001B114C /* FBSDKLoginKit.framework in Frameworks */,
+				6C7E61E71EA5A33F008C0AEB /* MapKit.framework in Frameworks */,
+				6C7E62411EA5B408008C0AEB /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +180,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C10DA521EC2AE2900A0A577 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CF93E3D1EC1903500358636 /* AddAlertViewController.swift */,
+				6C48E2CA1EC0EDBA00CE1A49 /* TableViewController.swift */,
+				6CF93E461EC1A04000358636 /* UserLocationController.swift */,
+				6CC9DB781EC2595D00608661 /* FBLoginVC.swift */,
+				6C7E61B61EA59C65008C0AEB /* ViewController.swift */,
+				6C48E2CC1EC0EFC100CE1A49 /* LocationsController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6C10DA5A1EC2AE6200A0A577 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E61E81EA5AD83008C0AEB /* DatabaseController.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		6C48E2C91EC0E23D00CE1A49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E62451EA5BC58008C0AEB /* MapPin.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		6C7E61A81EA59C65008C0AEB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +216,7 @@
 				6C7E61CB1EA59C65008C0AEB /* Eco AlertTests */,
 				6C7E61D61EA59C65008C0AEB /* Eco AlertUITests */,
 				6C7E61B21EA59C65008C0AEB /* Products */,
+				6C7E61E51EA5A33F008C0AEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +233,12 @@
 		6C7E61B31EA59C65008C0AEB /* Eco Alert */ = {
 			isa = PBXGroup;
 			children = (
+				6C6C7B811EC1BE70001B114C /* Eco Alert.entitlements */,
+				6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */,
 				6C7E61B41EA59C65008C0AEB /* AppDelegate.swift */,
-				6C7E61B61EA59C65008C0AEB /* ViewController.swift */,
+				6C48E2C91EC0E23D00CE1A49 /* Models */,
+				6C10DA5A1EC2AE6200A0A577 /* Managers */,
+				6C10DA521EC2AE2900A0A577 /* Controllers */,
 				6C7E61B81EA59C65008C0AEB /* Main.storyboard */,
 				6C7E61BE1EA59C65008C0AEB /* Assets.xcassets */,
 				6C7E61C01EA59C65008C0AEB /* LaunchScreen.storyboard */,
@@ -128,6 +266,32 @@
 			path = "Eco AlertUITests";
 			sourceTree = "<group>";
 		};
+		6C7E61E51EA5A33F008C0AEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6C7B7F1EC1BC75001B114C /* FBSDKShareKit.framework */,
+				6C6C7B7D1EC1BC6B001B114C /* FBSDKLoginKit.framework */,
+				6C6C7B7B1EC1BC60001B114C /* FBSDKCoreKit.framework */,
+				6C6C7B721EC1BC37001B114C /* Bolts.framework */,
+				6C7E61E61EA5A33F008C0AEB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7E62291EA5B3FC008C0AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7E62341EA5B3FC008C0AEB /* Alamofire.framework */,
+				6C7E62361EA5B3FC008C0AEB /* Alamofire iOS Tests.xctest */,
+				6C7E62381EA5B3FC008C0AEB /* Alamofire.framework */,
+				6C7E623A1EA5B3FC008C0AEB /* Alamofire macOS Tests.xctest */,
+				6C7E623C1EA5B3FC008C0AEB /* Alamofire.framework */,
+				6C7E623E1EA5B3FC008C0AEB /* Alamofire tvOS Tests.xctest */,
+				6C7E62401EA5B3FC008C0AEB /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +302,12 @@
 				6C7E61AD1EA59C65008C0AEB /* Sources */,
 				6C7E61AE1EA59C65008C0AEB /* Frameworks */,
 				6C7E61AF1EA59C65008C0AEB /* Resources */,
+				6C7E62071EA5B19B008C0AEB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6C7E62441EA5B408008C0AEB /* PBXTargetDependency */,
 			);
 			name = "Eco Alert";
 			productName = "Eco Alert";
@@ -198,6 +364,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6S7MCN3WAV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					6C7E61C71EA59C65008C0AEB = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -224,6 +398,12 @@
 			mainGroup = 6C7E61A81EA59C65008C0AEB;
 			productRefGroup = 6C7E61B21EA59C65008C0AEB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6C7E62291EA5B3FC008C0AEB /* Products */;
+					ProjectRef = 6C7E62281EA5B3FC008C0AEB /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6C7E61B01EA59C65008C0AEB /* Eco Alert */,
@@ -232,6 +412,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6C7E62341EA5B3FC008C0AEB /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 6C7E62331EA5B3FC008C0AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C7E62361EA5B3FC008C0AEB /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 6C7E62351EA5B3FC008C0AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C7E62381EA5B3FC008C0AEB /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 6C7E62371EA5B3FC008C0AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C7E623A1EA5B3FC008C0AEB /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 6C7E62391EA5B3FC008C0AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C7E623C1EA5B3FC008C0AEB /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 6C7E623B1EA5B3FC008C0AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C7E623E1EA5B3FC008C0AEB /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 6C7E623D1EA5B3FC008C0AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C7E62401EA5B3FC008C0AEB /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 6C7E623F1EA5B3FC008C0AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6C7E61AF1EA59C65008C0AEB /* Resources */ = {
@@ -265,9 +497,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7E61E91EA5AD83008C0AEB /* DatabaseController.swift in Sources */,
+				6CF93E471EC1A04100358636 /* UserLocationController.swift in Sources */,
+				6C48E2CD1EC0EFC200CE1A49 /* LocationsController.swift in Sources */,
+				6C48E2CB1EC0EDBA00CE1A49 /* TableViewController.swift in Sources */,
+				6C7E62461EA5BC58008C0AEB /* MapPin.swift in Sources */,
 				6C7E61B71EA59C65008C0AEB /* ViewController.swift in Sources */,
+				6CC9DB791EC2595D00608661 /* FBLoginVC.swift in Sources */,
 				6C7E61BD1EA59C65008C0AEB /* Eco_Alert.xcdatamodeld in Sources */,
 				6C7E61B51EA59C65008C0AEB /* AppDelegate.swift in Sources */,
+				6CF93E3E1EC1903500358636 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +538,11 @@
 			isa = PBXTargetDependency;
 			target = 6C7E61B01EA59C65008C0AEB /* Eco Alert */;
 			targetProxy = 6C7E61D41EA59C65008C0AEB /* PBXContainerItemProxy */;
+		};
+		6C7E62441EA5B408008C0AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 6C7E62431EA5B408008C0AEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -418,9 +662,16 @@
 		6C7E61DD1EA59C65008C0AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Eco Alert/Eco Alert.entitlements";
 				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.22.0",
+				);
 				INFOPLIST_FILE = "Eco Alert/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-Alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +682,16 @@
 		6C7E61DE1EA59C65008C0AEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Eco Alert/Eco Alert.entitlements";
 				DEVELOPMENT_TEAM = 6S7MCN3WAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.22.0",
+				);
 				INFOPLIST_FILE = "Eco Alert/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itp.tan.yiyang.Eco-Alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +776,7 @@
 				6C7E61DE1EA59C65008C0AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C7E61DF1EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco AlertTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +785,7 @@
 				6C7E61E11EA59C65008C0AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C7E61E21EA59C65008C0AEB /* Build configuration list for PBXNativeTarget "Eco AlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +794,7 @@
 				6C7E61E41EA59C65008C0AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
